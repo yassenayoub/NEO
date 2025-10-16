@@ -1,4 +1,4 @@
-# <img src="docs/NEO_logo.jpg" style="vertical-align: -10px;" :height="35px" width="35px"> NEO Series: Native Vision-Language Models
+# <img src="docs/NEO_logo.jpg" style="vertical-align: -10px;" :height="40px" width="40px"> NEO Series: Native Vision-Language Models
 
 <p align="center">
   <img src="docs/NEO_architecture.jpg" width="90%">
@@ -8,7 +8,7 @@
 
 
 ## 📜 News   
-[2025/10] The [paper](https://xxxx), [weights](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089), and [test code](/mnt/afs/diaohaiwen/workspace/Github/NEO/VLMEvalKit/blob/main/README.md) of **NEO** are released !     
+[2025/10] The [paper](https://xxxx), [weights](https://huggingface.co/collections/Paranioar/neo1-0-68f0db9cbac952be3eca7089), and [test code](https://github.com/EvolvingLMMs-Lab/NEO/blob/main/VLMEvalKit/README.md) of **NEO** are released !     
 [2025/09] 💥💥💥 **NEO** has been completed !  
 
 

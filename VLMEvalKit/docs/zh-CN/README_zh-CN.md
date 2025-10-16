@@ -2,7 +2,7 @@
 
 <b>VLMEvalKit: 一种多模态大模型评测工具 </b>
 
-[English](/README.md) | 简体中文  
+[English](https://github.com/EvolvingLMMs-Lab/NEO/blob/main/VLMEvalKit/README.md) | 简体中文  
 
 <a href="https://rank.opencompass.org.cn/leaderboard-multimodal">🏆 OpenCompass 排行榜 </a> •
 <a href="#%EF%B8%8F-quickstart">🏗️ 快速开始 </a> •
@@ -22,7 +22,7 @@
 
 ## 🏗️ 快速开始 <a id="quickstart"></a>
 
-请参阅[**快速开始**](./docs/zh-CN/Quickstart.md)获取入门指南。
+请参阅[**快速开始**](https://github.com/EvolvingLMMs-Lab/NEO/blob/main/VLMEvalKit/docs/zh-CN/Quickstart.md)获取入门指南。
 
 ## 📊 测试演示 <a id="data-model-results"></a>
 

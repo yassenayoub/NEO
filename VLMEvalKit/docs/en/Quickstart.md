@@ -76,17 +76,17 @@ You can run the script with `python` or `torchrun`:
 
 ```bash
 # When running with `python`, only one VLM instance is instantiated, and it might use multiple GPUs (depending on its default behavior).
-# That is recommended for evaluating very large VLMs (like IDEFICS-80B-Instruct).
+# That is recommended for evaluating very large VLMs (like NEO1_0-2B-SFT).
 
-# IDEFICS-80B-Instruct on MMBench_DEV_EN, MME, and SEEDBench_IMG, Inference and Evalution
+# NEO1_0-2B-SFT on MMBench_DEV_EN, MME, and SEEDBench_IMG, Inference and Evalution
 python run.py --data MMBench_DEV_EN MME SEEDBench_IMG --model NEO1_0-2B-SFT --verbose
-# IDEFICS-80B-Instruct on MMBench_DEV_EN, MME, and SEEDBench_IMG, Inference only
+# NEO1_0-2B-SFT on MMBench_DEV_EN, MME, and SEEDBench_IMG, Inference only
 python run.py --data MMBench_DEV_EN MME SEEDBench_IMG --model NEO1_0-2B-SFT --verbose --mode infer
 
 # When running with `torchrun`, one VLM instance is instantiated on each GPU. It can speed up the inference.
 # However, that is only suitable for VLMs that consume small amounts of GPU memory.
 
-# IDEFICS-9B-Instruct, Qwen-VL-Chat, mPLUG-Owl2 on MMBench_DEV_EN, MME, and SEEDBench_IMG. On a node with 8 GPU. Inference and Evaluation.
+# NEO1_0-2B-SFT, Qwen-VL-Chat, mPLUG-Owl2 on MMBench_DEV_EN, MME, and SEEDBench_IMG. On a node with 8 GPU. Inference and Evaluation.
 torchrun --nproc-per-node=8 run.py --data MMBench_DEV_EN MME SEEDBench_IMG --model NEO1_0-2B-SFT qwen_chat mPLUG-Owl2 --verbose
 # Qwen-VL-Chat on MME. On a node with 2 GPU. Inference and Evaluation.
 torchrun --nproc-per-node=2 run.py --data MME --model qwen_chat --verbose

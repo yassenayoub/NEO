@@ -75,17 +75,17 @@ pip install -e .
 
 ```bash
 # 使用 `python` 运行时，只实例化一个 VLM，并且它可能使用多个 GPU。
-# 这推荐用于评估参数量非常大的 VLMs（如 IDEFICS-80B-Instruct）。
+# 这推荐用于评估参数量非常大的 VLMs（如 NEO1_0-2B-SFT）。
 
-# 在 MMBench_DEV_EN、MME 和 SEEDBench_IMG 上使用 IDEFICS-80B-Instruct 进行推理和评估
+# 在 MMBench_DEV_EN、MME 和 SEEDBench_IMG 上使用 NEO1_0-2B-SFT 进行推理和评估
 python run.py --data MMBench_DEV_EN MME SEEDBench_IMG --model NEO1_0-2B-SFT --verbose
-# 在 MMBench_DEV_EN、MME 和 SEEDBench_IMG 上使用 IDEFICS-80B-Instruct 仅进行推理
+# 在 MMBench_DEV_EN、MME 和 SEEDBench_IMG 上使用 NEO1_0-2B-SFT 仅进行推理
 python run.py --data MMBench_DEV_EN MME SEEDBench_IMG --model NEO1_0-2B-SFT --verbose --mode infer
 
 # 使用 `torchrun` 运行时，每个 GPU 上实例化一个 VLM 实例。这可以加快推理速度。
 # 但是，这仅适用于消耗少量 GPU 内存的 VLMs。
 
-# 在 MMBench_DEV_EN、MME 和 SEEDBench_IMG 上使用 IDEFICS-9B-Instruct、Qwen-VL-Chat、mPLUG-Owl2。在具有 8 个 GPU 的节点上进行推理和评估。
+# 在 MMBench_DEV_EN、MME 和 SEEDBench_IMG 上使用 NEO1_0-2B-SFT、Qwen-VL-Chat、mPLUG-Owl2。在具有 8 个 GPU 的节点上进行推理和评估。
 torchrun --nproc-per-node=8 run.py --data MMBench_DEV_EN MME SEEDBench_IMG --model NEO1_0-2B-SFT qwen_chat mPLUG-Owl2 --verbose
 # 在 MME 上使用 Qwen-VL-Chat。在具有 2 个 GPU 的节点上进行推理和评估。
 torchrun --nproc-per-node=2 run.py --data MME --model qwen_chat --verbose
