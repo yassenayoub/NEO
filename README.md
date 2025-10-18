@@ -1,4 +1,4 @@
-# <img src="docs/NEO_logo.jpg" style="vertical-align: -10px;" :height="40px" width="40px"> NEO Series: Native Vision-Language Models
+# <p align="center"> <img src="docs/NEO_logo.jpg" style="vertical-align: -10px;" :height="40px" width="40px"> NEO Series: Native Vision-Language Models </p>
 
 <p align="center">
   <img src="docs/NEO_architecture.jpg" width="80%">
@@ -28,7 +28,7 @@
 
 - 🔥 **Superior Efficiency:** With merely 390M image-text examples, NEO develops strong visual perception from scratch, rivaling top-tier modular VLMs and outperforming native ones.  
 
-- 🔥 **Promising Roadmap:** NEO pioneers a promsing route for scalable and powerful native VLMs, paired with diverse reusable components that foster a cost-effective and extensible ecosystem.
+- 🔥 **Promising Roadmap:** NEO pioneers a promising route for scalable and powerful native VLMs, paired with diverse reusable components that foster a cost-effective and extensible ecosystem.
 
 ## 🤖 Model Zoo
 
@@ -46,12 +46,14 @@ We release 2B and 9B **NEO** in Pre-Training (PT), Mid-Training (MT), and Superv
 
 ## 📊 Benchmark Results
 
-> **Notes:**  
-> - “# Data” denotes the data scale for pre-training / mid-training / supervised fine-tuning.  
-> - † indicates models using Reinforcement Learning (RL).  
-> - “Any Res.” = any resolution; “Tile-wise” = image split into tiles; “Any Rat.” = any aspect ratio; “Fix Res.” = fixed resolution.  
-> - MoE = Mixture-of-Experts; DaC = Divide-and-Conquer.  
-> - **Bold** = best score in each column.  
+> **TABLE NOTE:**  
+> - “# Data” = data scale for pre-training / mid-training / supervised fine-tuning.  
+> - “†“ = vision-language models using Reinforcement Learning (RL).  
+> - “Any Res.” = any resolution; “Tile-wise” = image split into tiles; <br> “Any Rat.” = any aspect ratio; “Fix Res.” = fixed resolution.  
+> - “MoE“ = Mixture-of-Experts; “DaC“ = Divide-and-Conquer.  
+> - **Bold** = best score in each column. <br><br>
+
+
 
 | **Model_NAME** | **Base_LLM_NAME** | **#Data_PT·MT·SFT** | **Input_TYPE** | **RoPE_TYPE** | **MMMU** | **MMB** | **MMVet** | **MMStar** | **SEED_I** | **POPE** | **HallB** | **AI2D** | **DocVQA** | **ChartQA** | **InfoVQA** | **TextVQA** | **OCRBench** |
 |:--|:--|:--|:--|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
